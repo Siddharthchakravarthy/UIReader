@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Body{
+    min-height : 100vh;
+    background-size: 100vw 110vh;
+    background-repeat: no-repeat;
+    display : flex;
+    /* id yaake andre ee body li baro yaavude element aagli flexible aag irakke */
+    justify-content: center;
+    /* idu yella elements of flexible container align maadakke use aagatte  */
+    align-items: center;
+    /* idu yella items nu center ge taratte */
+}
+
+.head{
+    /* background-image: url("IMAGES FAVICONS/pallu.jpg");
+    
+    background-repeat: no-repeat; */
+    /* background-size: 6vmin 7vmin; */
+    background :linear-gradient(purple , rgb(238, 150, 150));
+    border : 1px solid white;
+    border-radius: 10px;
+}
+
+.snakeBody{
+    /* background-image: url("IMAGES FAVICONS/pizza.jpg");
+    background-size: 6vmin 7vmin;
+    background-position-x: -9px;
+    background-position-y: -3px; */
+    background :white;
+    border : 3px solid rgb(235, 219, 219);
+    border-radius: 2em;
+}
+
+.food{
+    /* background-image: url("IMAGES FAVICONS/pizza.jpg");
+    background-size: 11vmin 7vmin;
+    background-position-x: -9px;
+    background-position-y: -3px; */
+    background :linear-gradient(rgb(255, 0, 0) , rgb(238, 150, 150));
+    border : 3px solid rgb(235, 219, 219);
+    border-radius: 1em;
+}
+
+#GetFile{
+    position : absolute;
+    left : 450px;
+    top : 10px;
+    color: ivory;
+    font-size: 6vmin;
+    font-family: Oswald;
+    border-color: aquamarine;
+    border-style: double;
+}
+
+#RunCode{
+    top : 10px;
+    position :absolute;
+    color: ivory;
+    font-size: 6vmin;
+    font-family: Oswald;
+    border-color: khaki;
+    border-style: double;
+}
+
+#heading{
+    top : 10px;
+    left : 10px;
+    position : absolute;
+    color:  rgb(30, 255, 0);
+    font-size: 6vmin;
+    font-family: Oswald;
+    border-color: rgb(158, 180, 59);
+    border-style: double;
+}
